@@ -1,0 +1,7 @@
+{
+  "name": "Lista de Supermercado",
+  "description": "Gestão financeira de compras de supermercado, controle de estoque em lotes com PEPS e custo proporcional de refeições.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

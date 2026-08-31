@@ -1,0 +1,16 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir leitura e escrita para as coleções do app
+    match /historico_produtos/{document=**} {
+      allow read, write: if true;
+    }
+    match /dispensa_lotes/{document=**} {
+      allow read, write: if true;
+    }
+    match /historico_refeicoes/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
