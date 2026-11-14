@@ -4,11 +4,6 @@
 
 **Controle inteligente de suprimentos, lotes e consumo baseado na metodologia PEPS (Primeiro que Entra, Primeiro que Sai).**
 
-![React](https://shields.io)
-![TypeScript](https://shields.io)
-![Tailwind CSS](https://shields.io)
-![Firebase](https://shields.io)
-![Google AI Studio](https://shields.io)
 
 [Sobre o Projeto](#-sobre-o-projeto) •
 [Contexto e Desenvolvimento](#-contexto-e-desenvolvimento) •
