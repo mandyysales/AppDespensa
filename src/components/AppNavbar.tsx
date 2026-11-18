@@ -78,7 +78,7 @@ export const AppNavbar: React.FC = () => {
             <span>Carrinho</span>
           </button>
 
-          {/* 3. Dispensa */}
+          {/* 3. Despensa */}
           <button
             onClick={() => navegarPara('ESTOQUE')}
             className={`flex-1 flex flex-col items-center justify-center py-1.5 px-2 rounded-xl text-[10px] sm:text-xs font-black uppercase tracking-wider transition-all cursor-pointer border-2 ${
@@ -88,7 +88,7 @@ export const AppNavbar: React.FC = () => {
             }`}
           >
             <Package size={18} className="stroke-[2.5] mb-0.5" />
-            <span>Dispensa</span>
+            <span>Despensa</span>
           </button>
 
           {/* 4. Refeições */}

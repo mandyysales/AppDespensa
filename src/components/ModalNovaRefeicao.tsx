@@ -78,7 +78,7 @@ export const ModalNovaRefeicao: React.FC<ModalNovaRefeicaoProps> = ({
   const handleAdicionarIngrediente = () => {
     setErroItem(null);
     if (!produtoSelecionado) {
-      setErroItem('Selecione um produto da dispensa.');
+      setErroItem('Selecione um produto da despensa.');
       return;
     }
     if (qtdNum <= 0) {
@@ -86,7 +86,7 @@ export const ModalNovaRefeicao: React.FC<ModalNovaRefeicaoProps> = ({
       return;
     }
     if (qtdNum > saldoDisponivelReal) {
-      setErroItem(`Quantidade excede o disponível na dispensa (${formatarVolume(saldoDisponivelReal, baseUnidadeAtual)}).`);
+      setErroItem(`Quantidade excede o disponível na despensa (${formatarVolume(saldoDisponivelReal, baseUnidadeAtual)}).`);
       return;
     }
 
@@ -267,7 +267,7 @@ export const ModalNovaRefeicao: React.FC<ModalNovaRefeicaoProps> = ({
               {/* Seleção do Produto */}
               <div className="sm:col-span-6">
                 <label className="block text-[10px] font-black uppercase text-black mb-1">
-                  Produto Disponível na Dispensa
+                  Produto Disponível na Despensa
                 </label>
                 <select
                   value={produtoSelecionado}

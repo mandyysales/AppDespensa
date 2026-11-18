@@ -132,7 +132,7 @@ export const ScreenHistoricoRefeicoes: React.FC = () => {
                 Cálculo Proporcional Exato de Custo (PEPS / FIFO)
               </p>
               <p className="text-gray-300 leading-relaxed font-medium">
-                O preço do ingrediente consumido é calculado com base no primeiro lote adicionado à dispensa. Regra de 3:{' '}
+                O preço do ingrediente consumido é calculado com base no primeiro lote adicionado à despensa. Regra de 3:{' '}
                 <code className="bg-neutral-800 text-yellow-300 px-1.5 py-0.5 rounded border border-neutral-700 font-mono font-bold">
                   (quantidadeConsumida / volumeTotalLote) * (precoUnitario * quantidadeComprada)
                 </code>
@@ -191,7 +191,7 @@ export const ScreenHistoricoRefeicoes: React.FC = () => {
             <div>
               <h3 className="text-base font-black uppercase text-black">Nenhuma refeição registrada nos últimos 30 dias</h3>
               <p className="text-xs text-gray-600 max-w-sm mx-auto mt-1 font-medium">
-                Registre uma refeição para consumir ingredientes da sua dispensa com a regra PEPS e rastrear o custo alimentar.
+                Registre uma refeição para consumir ingredientes da sua despensa com a regra PEPS e rastrear o custo alimentar.
               </p>
             </div>
             <button

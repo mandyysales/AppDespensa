@@ -53,7 +53,7 @@ export const ScreenHome: React.FC = () => {
 
         <div className="flex items-center gap-6 sm:gap-8 self-start sm:self-auto">
           <div className="text-left sm:text-right">
-            <p className="text-[10px] uppercase font-black tracking-wider text-gray-400">Total em Dispensa</p>
+            <p className="text-[10px] uppercase font-black tracking-wider text-gray-400">Total em Despensa</p>
             <p className="text-xl sm:text-2xl font-black font-mono text-emerald-600">
               {formatarMoeda(valorTotalEstoque)}
             </p>
@@ -195,7 +195,7 @@ export const ScreenHome: React.FC = () => {
               </div>
 
               <p className="text-xs text-gray-600 mb-3 font-medium">
-                Registre suas refeições, e tenha um controle exato do consumo dos itens da sua dispensa.
+                Registre suas refeições, e tenha um controle exato do consumo dos itens da sua despensa.
               </p>
 
               {ultimasRefeicoes.length > 0 ? (
@@ -238,20 +238,20 @@ export const ScreenHome: React.FC = () => {
           </section>
         </div>
 
-        {/* Coluna 2 (Direita): Dispensa & Métricas (Posicionado diretamente abaixo da Dispensa) */}
+        {/* Coluna 2 (Direita): Despensa & Métricas (Posicionado diretamente abaixo da Despensa) */}
         <div className="lg:col-span-6 flex flex-col gap-5">
-          {/* Card: Dispensa */}
+          {/* Card: Despensa */}
           <section className="bg-white rounded-2xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4 sm:p-5 flex flex-col justify-between">
             <div>
               <div className="mb-3">
-                <h2 className="font-black text-base uppercase tracking-tight">Dispensa</h2>
-                <p className="text-[10px] text-gray-500 font-bold">Produtos disponíveis na dispensa</p>
+                <h2 className="font-black text-base uppercase tracking-tight">Despensa</h2>
+                <p className="text-[10px] text-gray-500 font-bold">Produtos disponíveis na despensa</p>
               </div>
 
               <div className="space-y-3">
                 {itensDestaqueEstoque.length === 0 ? (
                   <div className="p-4 bg-gray-50 rounded-xl border border-gray-200 text-center space-y-2">
-                    <p className="text-xs font-bold text-gray-700">Sua dispensa está vazia.</p>
+                    <p className="text-xs font-bold text-gray-700">Sua despensa está vazia.</p>
                     <p className="text-[10px] text-gray-500 font-medium">Cadastre compras para acompanhar o estoque e lotes.</p>
                     <button
                       onClick={() => navegarPara('CARRINHO')}
@@ -305,12 +305,12 @@ export const ScreenHome: React.FC = () => {
                 onClick={() => navegarPara('ESTOQUE')}
                 className="text-xs font-black uppercase text-black hover:text-emerald-700 flex items-center gap-1 cursor-pointer"
               >
-                Explorar Dispensa <ChevronRight size={14} className="stroke-[3]" />
+                Explorar Despensa <ChevronRight size={14} className="stroke-[3]" />
               </button>
             </div>
           </section>
 
-          {/* Card: Métricas (Orientação Horizontal, Posicionado diretamente abaixo do Card da Dispensa) */}
+          {/* Card: Métricas (Orientação Horizontal, Posicionado diretamente abaixo do Card da Despensa) */}
           <section className="bg-purple-600 rounded-2xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] p-4 sm:p-5 text-white flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between mb-3">

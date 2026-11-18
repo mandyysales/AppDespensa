@@ -29,7 +29,7 @@ export const ScreenEstoque: React.FC = () => {
 
   return (
     <div className="space-y-6 animate-in fade-in duration-200">
-      {/* Cabeçalho Requisito: Botão "Voltar" e nome "Sua dispensa" */}
+      {/* Cabeçalho Requisito: Botão "Voltar" e nome "Sua despensa" */}
       <header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-white p-5 rounded-2xl border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
         <div className="flex items-center gap-3">
           <button
@@ -41,7 +41,7 @@ export const ScreenEstoque: React.FC = () => {
           </button>
           <div>
             <h1 className="text-2xl font-black tracking-tighter text-black uppercase">
-              Sua Dispensa
+              Sua Despensa
             </h1>
             <p className="text-xs font-medium text-gray-500">Visão unificada do estoque com múltiplos lotes agrupados</p>
           </div>
@@ -63,7 +63,7 @@ export const ScreenEstoque: React.FC = () => {
             type="text"
             value={busca}
             onChange={e => setBusca(e.target.value)}
-            placeholder="Buscar produto na sua dispensa..."
+            placeholder="Buscar produto na sua despensa..."
             className="w-full pl-10 pr-4 py-2.5 bg-white border-2 border-black rounded-xl text-sm font-bold text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black transition-all shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]"
           />
         </div>
@@ -102,7 +102,7 @@ export const ScreenEstoque: React.FC = () => {
               </div>
               <div className="space-y-1">
                 <p className="text-base font-black text-black uppercase">
-                  Sua dispensa está vazia. Adicione uma nova compra para começar!
+                  Sua despensa está vazia. Adicione uma nova compra para começar!
                 </p>
                 <p className="text-xs text-gray-600 max-w-md mx-auto font-medium">
                   Cadastre os produtos comprados no supermercado para acompanhar lotes, validades e dedução automática PEPS nas suas refeições.

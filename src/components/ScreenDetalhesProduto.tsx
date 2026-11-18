@@ -43,7 +43,7 @@ export const ScreenDetalhesProduto: React.FC = () => {
           onClick={() => navegarPara('ESTOQUE')}
           className="px-4 py-2 bg-yellow-300 text-black border-2 border-black rounded-xl text-sm font-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] cursor-pointer"
         >
-          Voltar para a Dispensa
+          Voltar para a Despensa
         </button>
       </div>
     );
@@ -69,7 +69,7 @@ export const ScreenDetalhesProduto: React.FC = () => {
           <button
             onClick={() => navegarPara('ESTOQUE')}
             className="p-2 rounded-xl bg-white border-2 border-black text-black hover:bg-gray-100 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-[1px] active:translate-y-[1px] active:shadow-none transition-all cursor-pointer"
-            title="Voltar para Sua Dispensa"
+            title="Voltar para Sua Despensa"
           >
             <ArrowLeft size={18} className="stroke-[2.5]" />
           </button>

@@ -69,7 +69,7 @@ export const ScreenCarrinho: React.FC = () => {
       if (resultado.sucesso) {
         setMensagemFeedback({
           tipo: 'sucesso',
-          texto: 'Compra finalizada e salva no Firestore! Todos os lotes foram adicionados à sua dispensa.'
+          texto: 'Compra finalizada e salva no Firestore! Todos os lotes foram adicionados à sua despensa.'
         });
         setTimeout(() => {
           navegarPara('ESTOQUE');
@@ -273,7 +273,7 @@ export const ScreenCarrinho: React.FC = () => {
               {formatarMoeda(valorTotalCarrinho)}
             </div>
             <p className="text-xs text-gray-300 font-medium">
-              {carrinhoItens.length} produto(s) pronto(s) para dar entrada nos lotes da dispensa.
+              {carrinhoItens.length} produto(s) pronto(s) para dar entrada nos lotes da despensa.
             </p>
           </div>
 
@@ -311,7 +311,7 @@ export const ScreenCarrinho: React.FC = () => {
               </h3>
               <p className="text-xs text-gray-700 leading-relaxed font-medium">
                 Você tem certeza que deseja salvar esta compra de <strong className="font-black text-black">{formatarMoeda(valorTotalCarrinho)}</strong> no supermercado <strong className="font-black text-black">{carrinhoMercadoNome}</strong>?
-                Os itens serão adicionados aos lotes da dispensa e o carrinho será limpo.
+                Os itens serão adicionados aos lotes da despensa e o carrinho será limpo.
               </p>
             </div>
 
